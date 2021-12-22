@@ -1,0 +1,33 @@
+.list_item.titles{
+  margin-left: 50px;
+  color: rgba(0, 0, 0, 0.425);
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+.list_item{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 15px;
+  text-align: start;
+}
+
+.list_item p{
+  width: 200px;
+  margin-left: 30px;
+}
+
+.list_item img{
+  width: 50px;
+  height: 50px;
+}
+
+.list_item .user_age,
+.list_item .user_sex{
+  width: 100px;
+}
+
+.notFound{
+  color:rgba(0, 0, 0, 0.6);
+}
