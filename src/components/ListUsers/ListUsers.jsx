@@ -10,7 +10,7 @@ export default function ListUsers({filters}) {
     Object
       .keys(filters)
       .map(fil => (filters[fil]
-        ? Object.values(user).join("").toLowerCase().includes(filters[fil].toLowerCase())
+        ? String(user[fil]).toLowerCase().includes(filters[fil].toLowerCase())
         : true
       )).every(el => el)
   )
